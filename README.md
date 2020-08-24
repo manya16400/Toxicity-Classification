@@ -28,7 +28,7 @@ Along with Python 3, this project requires following libraries :
 
 ## Toxicity Classifier
   1. Data is preprocessed.
-  2. sklearn feature_extraction libraries __CountVectorizer() and TfidfTransformer()__ (term frequency-inverse document frequency formula) is applied to our features. 
+  2. sklearn feature_extraction libraries __CountVectorizer() and TfidfTransformer()__ (term frequency-inverse document frequency formula) is applied to our features. <br/>
   CountVectorizer is used to convert text to word count vectors whereas TfidTransformer is used to convert text to word frequency vecotrs, it defines the importance of a keyword or phrase within a document or a web page.
   3. The following algorithms are applied on the dataset- <br/>
       a) Naive-Bayes Classifier <br/>
