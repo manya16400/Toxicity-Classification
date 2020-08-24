@@ -31,8 +31,8 @@ Along with Python 3, this project requires following libraries :
   2. sklearn feature_extraction libraries __CountVectorizer() and TfidfTransformer()__ (term frequency-inverse document frequency formula) is applied to our features. 
   CountVectorizer is used to convert text to word count vectors whereas TfidTransformer is used to convert text to word frequency vecotrs, it defines the importance of a keyword or phrase within a document or a web page.
   3. The following algorithms are applied on the dataset- <br/>
-      a) Naive-Bayes Classifier
-      b) Logistic Regression
+      a) Naive-Bayes Classifier <br/>
+      b) Logistic Regression <br/>
       c) LSTM model
       
 ## Results 
